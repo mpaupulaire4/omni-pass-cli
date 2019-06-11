@@ -45,9 +45,9 @@ const args = require('yargs')
 
   console.log()
   console.log(await generate(args.username, args.password, {
-    name: args.site,
+    name: args.name,
     counter: args.counter,
-    context: args.name,
+    context: args.site,
     length: args.length,
   }))
 })()
