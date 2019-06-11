@@ -1,0 +1,11 @@
+{
+  "name": "omni-pass-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Michel Paupulaire <mpaupulaire4@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "omni-pass-core": "^1.0.0",
+    "yargs": "^13.2.4"
+  }
+}
